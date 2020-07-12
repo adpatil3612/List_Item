@@ -1,0 +1,5 @@
+export const ActionConstants = {
+    ADD_DATA: 'ADD_DATA',
+    UPDATE_LIKE_COUNT: 'UPDATE_LIKE_COUNT',
+    UPDATE_DISLIKE_COUNT: 'UPDATE_DISLIKE_COUNT'
+}
