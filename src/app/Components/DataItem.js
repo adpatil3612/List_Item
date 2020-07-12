@@ -7,8 +7,8 @@ export const DataItem = (props) => {
         <>
         <div className = 'list-element'>
             <Button className='icon-button' id={item.id} onClick = {likeListener} size='tiny'>
-                <Icon name='thumbs up outline'/> 
-                <span className='icon-like'>
+                <Icon name='thumbs up outline' id={item.id}/> 
+                <span className='icon-like' id={item.id}>
                     {item.like}
                 </span>
             </Button>
